@@ -2,10 +2,11 @@ import os
 
 basedir = '//main-srvr01/Landing Page Accounts/AD-IQ'
 
-
+# make sure no spaces at the end or beginning
 while True:
     user_search = input('Enter the company name or account number: ')
     print('Searching now...')
     for folder in os.listdir(basedir):
         if user_search in folder:
             print('Folder is named as: ' + folder)
+            print('\\\main-srvr01\\Landing Page Accounts\\AD-IQ\\' + folder)
