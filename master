@@ -13,3 +13,4 @@ while True:
             i += 1
             print(i, 'Folder is named as: ', folder)
             print('\\\main-srvr01\\Landing Page Accounts\\AD-IQ\\' + folder)
+    print('Number of folders found:', i)
